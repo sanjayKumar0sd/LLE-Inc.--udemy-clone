@@ -66,6 +66,7 @@ display: none;}
   border-bottom: 1px solid black;
   background-color: #F4F6F7;
   flex-wrap: wrap;
+  cursor: pointer;
  
 }
 .categories p {
@@ -73,6 +74,15 @@ display: none;}
   color: white;
   padding: 10px;
   border-radius: 30px;margin-top: 1%;
+    border: solid 5px #2C3E50;
+
+}
+.categories p:hover{
+  transition: 1s;
+  background-color: transparent;
+  color:#2C3E50 ;
+  border: solid 5px #2C3E50;
+
 }
 .simg img {
   width: 100%;
